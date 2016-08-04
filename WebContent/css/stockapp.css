@@ -1,0 +1,83 @@
+body 		{text-align: center; background-color: rgb(235,235,235); }
+
+span    	{color: red; font-size: 8pt}
+
+.wrapper  	{ width: 600px; padding: 25px; text-align: center; border: 1px solid black; background-color: rgb(255,255,255)}
+
+.left_box  	{float: left; text-align: left; padding: 16px; border: 1px solid black; margin-left: 20px; center;  }
+
+.right_box  	{float: right; margin-right: 20px;  }
+	
+#main 		{text-align: center; width: 180px; background-image: url(../images/logon_box.gif); color: white; }
+
+#register  	{width: 175px; text-align: center;background-image: url(../images/register_back.jpg);  color: white }
+
+.personal  	{padding: 10px; text-align: center; width: 450px; border: 1px solid black; }
+	
+
+#para    	{text-align: left; font-size: 13pt; text-align: center; background-image: url(../images/bar1.jpg); }
+
+#bar   		{text-align: center; width: 600px; height: 30px; font-size: 11pt;padding-top: 4px}
+
+
+a		{color: white}
+
+#margin		{padding-top: 10px}
+
+#lock		{padding-left: 60px; padding-top: 5px}
+
+/*
+BuySell.jsp
+*/
+#contentBuySell {
+	margin-top: 50px;
+}
+
+/* This does not work on IE */
+html>body table.BuySell {
+	margin-left: 400px;
+}
+table.BuySell thead tr {
+	height: 30px;
+}
+table.BuySell tr.row0 {
+	background-color: #FF0000;
+}
+table.BuySell tr.row1 {
+	background-color: #00FF00;
+}
+
+table.BuySell td {
+	width: 120px;
+	padding-left: 5px;
+}
+table.BuySell td.right {
+	text-align: right;
+	padding-right: 5px;
+}
+table.BuySell th.right {
+	text-align: right;
+	padding-right: 5px;
+}
+
+tr.footer td {
+	padding-top: 10px;
+}
+
+.lefttext {
+	float: left;
+	font-size: 16px;
+	margin-left: 300px;
+	color: #000000;
+}
+.righttext {
+	float: left;
+	margin-left: 300px;
+	font-size: 16px;
+	color: #000000;	
+}
+.headertext {
+	clear: left;
+	margin-top: -40px;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate
+END
+Users.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate/Users.hbm.xml
+END
+Stock.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate/Stock.hbm.xml
+END
+UserTransaction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate/UserTransaction.hbm.xml
+END
+StockPrice.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate/StockPrice.hbm.xml
+END

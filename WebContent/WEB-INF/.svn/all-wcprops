@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/IN_NFS/!svn/ver/2077/STOCK-APP/WebContent/WEB-INF
+END
+springapp-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/IN_NFS/!svn/ver/2077/STOCK-APP/WebContent/WEB-INF/springapp-servlet.xml
+END
+dwr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/IN_NFS/!svn/ver/2077/STOCK-APP/WebContent/WEB-INF/dwr.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/IN_NFS/!svn/ver/2077/STOCK-APP/WebContent/WEB-INF/web.xml
+END

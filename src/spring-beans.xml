@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--
+	author: Mahesh
+	$Id: spring-beans.xml,v 1.7 2009/03/11 15:29:54 natamah Exp $
+-->
+<beans>	
+	<import resource="startUpBeans.xml"/>	
+</beans>

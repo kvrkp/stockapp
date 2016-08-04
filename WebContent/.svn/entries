@@ -1,0 +1,92 @@
+10
+
+dir
+2090
+http://10.112.177.88/IN_NFS/STOCK-APP/WebContent
+http://10.112.177.88/IN_NFS
+
+
+
+2013-02-28T07:41:46.914849Z
+2080
+1384078
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b964f14-dc17-4f7b-8b85-f73a0d8b2563
+
+META-INF
+dir
+
+extjs3
+dir
+
+taglib
+dir
+
+images
+dir
+
+WEB-INF
+dir
+
+admin
+dir
+
+css
+dir
+
+html5
+dir
+
+index.html
+file
+
+
+
+
+2013-05-07T06:22:19.149100Z
+492967a5a8cb46639858d283863e8ff6
+2013-02-05T10:54:39.437356Z
+2077
+sivaraman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+73
+
+jsp
+dir
+
+testjsp
+dir
+

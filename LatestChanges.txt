@@ -1,0 +1,4 @@
+9/25/2009
+
+Introduced ext-js
+Changed *.html to *.htm in web.xml and springapp-servlet.xml

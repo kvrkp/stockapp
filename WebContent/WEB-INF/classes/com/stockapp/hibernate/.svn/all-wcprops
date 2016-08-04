@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate/UserDao.java
+END
+Stock.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate/Stock.java
+END
+Transaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate/Transaction.java
+END
+TransactionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate/TransactionDao.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/hibernate/User.java
+END

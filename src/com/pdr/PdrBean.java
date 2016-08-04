@@ -1,0 +1,52 @@
+package com.pdr;
+
+public class PdrBean {
+	String dirname;
+	String filename;
+	String modifiedDate;
+	long length;
+	int filecnt;
+	String filetype;
+	PdrPropertyBean pdrprop;
+	
+	public PdrBean() {
+		
+	}
+	public PdrBean(String dirname, String filename, String modifiedDate,	long length, 
+			int filecnt, String filetype, PdrPropertyBean pdrprop) {
+		super();
+		this.dirname = dirname;
+		this.filename = filename;
+		this.modifiedDate = modifiedDate;
+		this.length = length;
+		this.filecnt = filecnt;
+		this.filetype=filetype;
+		this.pdrprop=pdrprop;
+	}
+	
+	public String toString() {
+		if (pdrprop.getOutputType().equals("csv"))
+			return (filetype + "," + dirname + "," + filename + "," + modifiedDate + "," + length + "," + filecnt);
+		else {
+			String drive = dirname.substring(0,2);
+			String sharefoldername = (String) pdrprop.getSharePointFolder().get(drive);
+			String dirnameWithoutDrive = dirname.substring(3);
+			dirnameWithoutDrive = dirnameWithoutDrive.replace('\\', '/');
+			return ("<td>" + sharefoldername + "/" + dirnameWithoutDrive + "</td><td>" + modifiedDate + "</td><td>" + length + "</td><td>" + filecnt + "</td>");
+		}
+	}
+	
+	public String printHeader(PdrPropertyBean pdrprop) {
+		if (pdrprop.getOutputType().equals("csv"))
+			return ("FileType,Dir,File,Mod Date,Length,FileCnt");
+		else
+			return ("<html><table>");
+		
+	}
+	public String printFooter(PdrPropertyBean pdrprop) {
+		if (pdrprop.getOutputType().equals("csv"))
+			return ("-------------------------------------------------------");
+		else
+			return ("</table></html>");
+	}
+}

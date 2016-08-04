@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- $Id: IndexWeb20Data.cfg.xml,v 1.1 2008/09/24 20:06:28 natamah Exp $ -->
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+    <class name="com.stockapp.hibernate.Stock" table="stock">    
+    	<meta attribute="implement-equals">true</meta>    	
+		<id name="stockCode" type="java.lang.String" column="stock_code">
+			<generator class="assigned" />
+		</id>    	          
+        <property name="stockName" column="stock_name" />
+    </class>
+</hibernate-mapping>

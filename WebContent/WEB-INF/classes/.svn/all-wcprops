@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/IN_NFS/!svn/ver/2090/STOCK-APP/src
+END
+hibernate-prod.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate-prod.cfg.xml
+END
+spring-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/spring-beans.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/log4j.properties
+END
+startUpBeans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/startUpBeans.xml
+END
+DelDup.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/DelDup.java
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/hibernate.cfg.xml
+END

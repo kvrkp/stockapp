@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/IN_NFS/!svn/ver/2077/STOCK-APP/SQL
+END
+godaddyserver.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/IN_NFS/!svn/ver/2077/STOCK-APP/SQL/godaddyserver.txt
+END
+mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/IN_NFS/!svn/ver/2077/STOCK-APP/SQL/mysql.sql
+END
+initial_setup.sql
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/IN_NFS/!svn/ver/2077/STOCK-APP/SQL/initial_setup.sql
+END

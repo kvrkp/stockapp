@@ -1,0 +1,46 @@
+10
+
+dir
+2090
+http://10.112.177.88/IN_NFS/STOCK-APP/src/com/stockapp
+http://10.112.177.88/IN_NFS
+
+
+
+2013-02-05T10:54:39.437356Z
+2077
+sivaraman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4b964f14-dc17-4f7b-8b85-f73a0d8b2563
+
+hibernate
+dir
+
+startup
+dir
+
+controller
+dir
+
+dao
+dir
+
+generateView
+dir
+
+util
+dir
+

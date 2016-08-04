@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- $Id: IndexWeb20Data.cfg.xml,v 1.1 2008/09/24 20:06:28 natamah Exp $ -->
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping>
+    <class name="com.stockapp.hibernate.User" table="users">    
+    	<meta attribute="implement-equals">true</meta>    	
+		<id name="email" type="java.lang.String" column="email">
+			<generator class="assigned" />
+		</id>    	          
+        <property name="password" column="password" />
+        <property name="firstName" column="first_name" />
+        <property name="lastName" column="last_name" />
+        <property name="balance" column="balance" />
+    </class>
+</hibernate-mapping>

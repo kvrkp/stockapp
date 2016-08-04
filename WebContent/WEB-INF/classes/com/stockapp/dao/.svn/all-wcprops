@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/dao
+END
+HibernateHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/dao/HibernateHelper.java
+END
+DBTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/dao/DBTest.java
+END
+MySqlTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/IN_NFS/!svn/ver/2077/STOCK-APP/src/com/stockapp/dao/MySqlTest.java
+END

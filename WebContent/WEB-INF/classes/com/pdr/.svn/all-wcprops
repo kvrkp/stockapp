@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/IN_NFS/!svn/ver/2090/STOCK-APP/src/com/pdr
+END
+copyFile.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/IN_NFS/!svn/ver/2081/STOCK-APP/src/com/pdr/copyFile.bat
+END
+PdrPropertyBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/IN_NFS/!svn/ver/2086/STOCK-APP/src/com/pdr/PdrPropertyBean.java
+END
+SvnReadUserNames.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/IN_NFS/!svn/ver/2094/STOCK-APP/src/com/pdr/SvnReadUserNames.properties
+END
+PdrRead.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/IN_NFS/!svn/ver/2221/STOCK-APP/src/com/pdr/PdrRead.java
+END
+SvnRead.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/IN_NFS/!svn/ver/2095/STOCK-APP/src/com/pdr/SvnRead.java
+END
+PdrZip.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/IN_NFS/!svn/ver/2086/STOCK-APP/src/com/pdr/PdrZip.java
+END
+SvnHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/IN_NFS/!svn/ver/2089/STOCK-APP/src/com/pdr/SvnHistory.java
+END
+PdfMerge.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/IN_NFS/!svn/ver/2183/STOCK-APP/src/com/pdr/PdfMerge.java
+END
+PdrBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/IN_NFS/!svn/ver/2085/STOCK-APP/src/com/pdr/PdrBean.java
+END
+PdrParamBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/IN_NFS/!svn/ver/2086/STOCK-APP/src/com/pdr/PdrParamBean.java
+END
+PdrRead.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/IN_NFS/!svn/ver/2086/STOCK-APP/src/com/pdr/PdrRead.properties
+END

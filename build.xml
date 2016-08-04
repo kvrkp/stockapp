@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project name="stockapp" basedir="." default="build">
+	<property file="build.properties"/>
+	<property name="src.dir" value="src"/>
+	<property name="build.dir" value="build"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="web.dir" value="WebContent"/>
+	<property name="web.lib.dir" value="${web.dir}/WEB-INF/lib"/>
+	<property name="tomcat.lib.dir" value="c:/tomcat6/lib"/>
+			
+	<path id="app.classpath">
+		<fileset dir="${web.lib.dir}">
+			<include name="**/*"/>
+		</fileset>
+		<fileset dir="${tomcat.lib.dir}">
+			<include name="**/*"/>
+		</fileset>
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+	
+	<target name="build" depends="">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" 
+               nowarn="off" fork="true" debug="true"
+        	 memoryinitialsize="256m" memorymaximumsize="256m">
+			<classpath refid="app.classpath"/>
+		</javac>	    	    
+	</target>	
+</project>

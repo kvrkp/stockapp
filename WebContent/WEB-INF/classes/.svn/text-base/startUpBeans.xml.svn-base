@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--
+	author:
+	$Id: startUpBeans.xml,v 1.92 2009/05/18 19:25:40 natamah Exp $
+--> 
+<beans>
+	<bean id="UserDao" class="com.stockapp.hibernate.UserDao" lazy-init="true">
+	</bean>
+
+	<bean id="TransactionDao" class="com.stockapp.hibernate.TransactionDao" lazy-init="true">
+	</bean>
+	
+	<bean id="Result" class="com.stockapp.generateView.Result">
+	</bean>
+	
+	<bean id="BuyStocks" class="com.stockapp.generateView.BuyStocks">
+	</bean>
+	
+	<bean id="RegisterProcess" class="com.stockapp.generateView.RegisterProcess">
+	</bean>
+	
+	<bean id="LoginProcess" class="com.stockapp.generateView.LoginProcess">
+	</bean>
+	
+	<bean id="BuySell" class="com.stockapp.generateView.BuySell">
+	</bean>
+</beans>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: dwr.xml,v 1.1 2009/05/18 19:29:06 natamah Exp $ -->
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+    <allow>
+
+        <create creator="new" javascript="DwrTestService">
+            <param name="class" value="com.stockapp.util.DwrTestService"/>
+        </create>
+    </allow>    
+</dwr>

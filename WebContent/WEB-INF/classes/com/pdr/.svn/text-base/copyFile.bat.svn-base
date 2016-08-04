@@ -1,0 +1,1 @@
+copy C:\mytraining\stockapp2\WebContent\WEB-INF\classes\com\pdr\*.* c:\myutils\com\pdr

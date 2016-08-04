@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- $Id: hibernate.cfg.xml,v 1.24 2009/03/19 14:43:12 natamah Exp $ -->
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>     
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="debug">false</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+        <property name="format_sql">false</property>
+        <property name="generate_statistics">false</property>
+        
+        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://127.0.0.1/stockapp</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">admin001</property>
+        
+        <mapping resource="hibernate/Users.hbm.xml"/>        
+        <mapping resource="hibernate/Stock.hbm.xml"/>        
+        <mapping resource="hibernate/UserTransaction.hbm.xml"/>        
+    </session-factory>
+</hibernate-configuration>
